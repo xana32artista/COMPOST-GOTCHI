@@ -1,0 +1,14 @@
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales de Microsoft Office
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Registros y cache
+*.log
+.vscode/
+.idea/
