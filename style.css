@@ -914,3 +914,26 @@ input[type="text"]:focus { outline: none; border-color: var(--c-primary); box-sh
   .circular-gauge { width: 80px; height: 80px; }
   .gauge-val { font-size: 14px; }
 }
+
+/* ============================================================
+   FOOTER (Bellas Artes)
+   ============================================================ */
+.app-footer {
+  text-align: center;
+  padding: 20px 10px;
+  background: var(--surface-card);
+  border-top: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  font-size: 13px;
+  border-radius: 0 0 16px 16px;
+  margin-top: -8px; /* Ajuste para el diseño de la app */
+}
+
+.app-footer p {
+  margin: 4px 0;
+}
+
+.app-footer strong {
+  color: var(--primary);
+  font-weight: 600;
+}
